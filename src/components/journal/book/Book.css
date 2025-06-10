@@ -1,0 +1,9 @@
+.book {
+    width: 80rem;
+    height: 60rem;
+    background-image: url("../../../assets/page/book_open.png");
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    image-rendering: pixelated;
+}

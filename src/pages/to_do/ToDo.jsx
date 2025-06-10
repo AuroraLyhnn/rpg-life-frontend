@@ -1,12 +1,13 @@
 import './ToDo.css';
-import Bookmarks from '../../components/journal/bookmarks/Bookmarks';
+import Book from "../../components/journal/book/Book.jsx";
 
 
 function ToDo() {
     return (
         <>
-            <Bookmarks/>
+            <Book>
             <h1>To Do page!</h1>
+            </Book>
         </>
     )
 }

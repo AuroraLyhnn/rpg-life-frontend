@@ -1,10 +1,12 @@
 import './HeroQuest.css';
-import Bookmarks from '../../components/journal/bookmarks/Bookmarks';
+import Book from "../../components/journal/book/Book.jsx";
+
 function HeroQuest() {
     return (
         <>
-            <Bookmarks/>
-            <h1>Hero quest page!</h1>
+            <Book>
+                <h1>Hero quest page!</h1>
+            </Book>
         </>
     )
 }
