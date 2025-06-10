@@ -7,7 +7,7 @@ function Bookmarks() {
     return (
         <nav>
             <li>
-                <NavLink to="/to_do" className={({ isActive }) => isActive === true? 'active-link' : 'default-link'}>
+                <NavLink to="/" className={({ isActive }) => isActive === true? 'active-link' : 'default-link'}>
                     To Do
                 </NavLink>
             </li>
