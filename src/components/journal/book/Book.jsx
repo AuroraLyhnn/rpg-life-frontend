@@ -3,7 +3,7 @@ import Bookmarks from "../bookmarks/Bookmarks.jsx";
 
 function Book(props) {
    return (
-       <div className="book">
+       <div className="book bg-style">
            <Bookmarks />
            {/*Misschien binnen boek 2 verschillende div's voor linker pagina en rechter pagina?*/}
            {props.children}

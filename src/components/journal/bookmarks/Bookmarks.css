@@ -1,10 +1,12 @@
 nav {
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     height: 6.1rem;
-    gap: 0.8rem;
-    margin: 10rem 8rem 0 0;
+    gap: 0.5rem;
+    top: -9.1%;
+    left: 72%;
 }
 
 li {
@@ -23,28 +25,29 @@ span {
 .purple-bookmark {
     background-image: url("../../../assets/page/bookmark/purple.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: 7rem;
 }
 
 .blue-bookmark {
     background-image: url("../../../assets/page/bookmark/blue.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: 7rem;
 }
 
 .green-bookmark {
     background-image: url("../../../assets/page/bookmark/green.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: 7rem;
 }
 
 .default-link {
-
+    color: white;
 }
 
 .active-link {
-
+    color: black;
+    font-weight: bold;
 }

@@ -1,9 +1,11 @@
 .book {
-    width: 80rem;
-    height: 60rem;
+    width: 82rem;
+    height: 50.5rem;
+    margin-top: 6rem;
+    padding: 2rem 5rem 7rem 5rem;
+    position: relative;
     background-image: url("../../../assets/page/book_open.png");
-    background-size: 80rem;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
-    image-rendering: pixelated;
+    background-position: center bottom;
 }
