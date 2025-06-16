@@ -2,23 +2,24 @@ import Blue from '../../../assets/page/bookmark/blue.png';
 import Purple from '../../../assets/page/bookmark/purple.png';
 import Green from '../../../assets/page/bookmark/green.png';
 import { NavLink } from "react-router-dom";
+import "./Bookmarks.css"
 
 function Bookmarks() {
     return (
         <nav>
-            <li>
+            <li className="blue-bookmark bg-style">
                 <NavLink to="/" className={({ isActive }) => isActive === true? 'active-link' : 'default-link'}>
                     To Do
                 </NavLink>
             </li>
-            <li>
+            <li className="green-bookmark bg-style">
                 <NavLink to="/hero_quest" className={({ isActive }) => isActive === true? 'active-link' : 'default-link'}>
-                    Hero Quest
+                    <span>Hero</span> <span>Quest</span>
                 </NavLink>
             </li>
-            <li>
+            <li className="purple-bookmark bg-style">
                 <NavLink to="/guild_card" className={({ isActive }) => isActive === true? 'active-link' : 'default-link'}>
-                    Guild Card
+                    <span>Guild</span> <span>Card</span>
                 </NavLink>
             </li>
         </nav>

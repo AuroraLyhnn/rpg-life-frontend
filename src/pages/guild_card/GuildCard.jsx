@@ -1,11 +1,13 @@
 import './GuildCard.css';
-import Bookmarks from '../../components/journal/bookmarks/Bookmarks';
+import Book from "../../components/journal/book/Book.jsx";
 
 function GuildCard() {
     return (
         <>
-            <Bookmarks/>
-            <h1>Guild Card page!</h1>
+            <Book>
+                <h1>Guild Card page!</h1>
+            </Book>
+
         </>
     )
 }

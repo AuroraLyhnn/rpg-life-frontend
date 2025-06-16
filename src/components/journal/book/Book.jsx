@@ -1,10 +1,14 @@
-import './Book.css'
-import OpenBook from '../../../assets/page/book_open.png'
+import "./Book.css";
+import Bookmarks from "../bookmarks/Bookmarks.jsx";
 
-function Book() {
-    return (
-        <h1>Book</h1>
-    )
+function Book(props) {
+   return (
+       <div className="book bg-style">
+           <Bookmarks />
+           {/*Misschien binnen boek 2 verschillende div's voor linker pagina en rechter pagina?*/}
+           {props.children}
+       </div>
+   );
 }
 
 export default Book;
