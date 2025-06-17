@@ -17,6 +17,7 @@
   line-height: 1.5;
   font-weight: 400;
   font-style: normal;
+  color: #663C29;
 }
 
 /*-♥-Global-Styling-♥-*/
@@ -33,6 +34,17 @@ ul, ol, a {
 
 a:hover {
   color: #ecd33b;
+}
+
+input, input:active {
+  color: #663C29;
+  font: inherit;
+  border: none;
+  opacity: 10;
+}
+
+input::placeholder {
+  opacity: 1;
 }
 
 /*-♥-Image-Styling-♥-*/
