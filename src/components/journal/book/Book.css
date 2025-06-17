@@ -9,3 +9,9 @@
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    gap: 3.7rem;
+}

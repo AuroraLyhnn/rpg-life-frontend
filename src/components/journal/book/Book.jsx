@@ -5,8 +5,9 @@ function Book(props) {
    return (
        <div className="book bg-style">
            <Bookmarks />
-           {/*Misschien binnen boek 2 verschillende div's voor linker pagina en rechter pagina?*/}
-           {props.children}
+           <div className="pages">
+            {props.children}
+           </div>
        </div>
    );
 }
