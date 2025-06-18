@@ -1,10 +1,18 @@
 import './NewToDoList.css';
+import Page from "../../components/journal/book/Page.jsx";
+import Book from "../../components/journal/book/Book.jsx";
 
 function NewToDo() {
     return (
-        <>
-            <h1>New To Do page!</h1>
-        </>
+        <Book>
+            <Page className="leftPage">
+                <h1>New Quest List page!</h1>
+            </Page>
+            <Page className="rightPage">
+
+            </Page>
+
+        </Book>
     )
 }
 

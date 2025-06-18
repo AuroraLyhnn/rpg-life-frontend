@@ -13,17 +13,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .loginForm {
     height: 20rem;
-    width: 25rem;
+    width: 27rem;
     margin-top: 1rem;
     border: #663C29;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.emailArea,
+.passwordArea {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .emailField,
@@ -36,17 +44,17 @@
     gap: 0.5rem;
 }
 
-
-.passwordArea {
-
-}
 .emailInput,
 .passwordInput {
     border: none;
     background-color: transparent;
-    width: 25rem;
+    width: 22rem;
     height: 2rem;
     padding: 0.5rem;
+}
+
+Line {
+    width: 25rem;
 }
 
 .links

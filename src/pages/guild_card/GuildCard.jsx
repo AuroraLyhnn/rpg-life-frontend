@@ -1,13 +1,19 @@
 import './GuildCard.css';
 import Book from "../../components/journal/book/Book.jsx";
+import Page from "../../components/journal/book/Page.jsx";
 
 function GuildCard() {
     return (
         <>
             <Book>
-                <h1>Guild Card page!</h1>
-            </Book>
+                <Page className="leftPage">
+                    <h1>Guild card page!</h1>
+                </Page>
+                <Page className="rightPage">
 
+                </Page>
+
+            </Book>
         </>
     )
 }

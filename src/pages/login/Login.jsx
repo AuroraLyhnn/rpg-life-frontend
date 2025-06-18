@@ -4,6 +4,7 @@ import Page from "../../components/journal/book/Page.jsx";
 import AppLogo from "../../assets/page/application-logo.png"
 import Mail from "../../assets/page/mail.png"
 import Lock from "../../assets/page/lock-open.png"
+import Line from "../../assets/page/dark-line-s.png"
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 
@@ -26,18 +27,21 @@ function Login() {
                     <h1>Welcome brave adventurer!</h1>
 
                     <form className="loginForm" onSubmit={handleSubmit}>
-                        <div className="emailField">
-                            <img className="mail" src={Mail} alt="mail icon"/>
-                            <input className="emailInput" placeholder="Emailaddress:"
-                                   name="email"
-                                   id="email-field"
-                                   type="text"
-                                   value={emailValue}
-                                   onChange={(e) => setEmailValue(e.target.value)}/>
-                            <hr/>
+                        <div className="emailArea">
+                            <div className="emailField">
+                                <img className="mail" src={Mail} alt="mail icon"/>
+                                <input className="emailInput" placeholder="Emailaddress:"
+                                       name="email"
+                                       id="email-field"
+                                       type="text"
+                                       value={emailValue}
+                                       onChange={(e) => setEmailValue(e.target.value)}/>
+                            </div>
+                            <img src={Line} alt="line"/>
                         </div>
 
-                        <passwordArea>
+
+                        <div className="passwordArea">
                             <div className="passwordField">
                                 <img className="lock" src={Lock} alt="lock icon"/>
                                 <input className="passwordInput" placeholder="Password"
@@ -47,8 +51,9 @@ function Login() {
                                        value={passwordValue}
                                        onChange={(e) => setPasswordValue(e.target.value)}/>
                             </div>
+                            <img src={Line} alt="line"/>
                             <NavLink className="links" to="/forgot-password">Forgot password?</NavLink>
-                        </passwordArea>
+                        </div>
 
                         <div className="login-or-register">
                             <button type="submit">Login</button>

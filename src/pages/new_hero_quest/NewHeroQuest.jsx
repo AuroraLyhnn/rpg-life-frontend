@@ -1,10 +1,18 @@
 import './NewHeroQuest.css';
+import Page from "../../components/journal/book/Page.jsx";
+import Book from "../../components/journal/book/Book.jsx";
 
 function NewHeroQuest() {
     return (
-        <>
-            <h1>New Hero Quest page!</h1>
-        </>
+        <Book>
+            <Page className="leftPage">
+                <h1>New Hero quest page!</h1>
+            </Page>
+            <Page className="rightPage">
+
+            </Page>
+
+        </Book>
     )
 }
 
