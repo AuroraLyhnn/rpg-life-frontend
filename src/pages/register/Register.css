@@ -1,0 +1,60 @@
+.titleLine {
+    width: 25rem;
+}
+
+.registrationForm {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailAddressInputField,
+.newPasswordInputField,
+.repeatPasswordInputField,
+.heroNameInputField {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.emailAddressInput,
+.newPasswordInput,
+.repeatPasswordInput,
+.heroNameInput{
+    align-self: stretch;
+}
+
+.heroNameExplenation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.welcomeScroll {
+    position: fixed;
+    top: 100vh; /* completely off screen (bottom) */
+    margin-left: 41rem;
+    width: 100%;
+    height: 100%;
+    transition: top 0.7s ease-in-out;
+}
+
+/* Visible on screen */
+.welcomeScroll.visible {
+    top: 2rem;
+}
+
+
+.flame {
+    width: 1.5rem;
+    height: 1.8rem;
+}
+
+.registerButton {
+    margin-top: 2rem;
+}

@@ -43,11 +43,22 @@ span {
     background-size: 7rem;
 }
 
+
 .default-link {
     color: white;
+    text-decoration: none;
 }
 
 .active-link {
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
+
+.default-link:hover,
+.active-link:hover {
+    color: #ecd33b;
+    text-decoration: none;
+
+}
+
