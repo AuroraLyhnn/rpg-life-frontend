@@ -7,6 +7,7 @@ import Lock from "../../assets/page/lock-open.png"
 import Line from "../../assets/page/dark-line-s.png"
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
+import LogoPage from "../../components/journal/book/LogoPage.jsx";
 
 function Login() {
 
@@ -19,9 +20,7 @@ function Login() {
 
         return (
             <Book>
-                <Page className="leftPage">
-                    <img className="logo" src={AppLogo} alt="Application logo"/>
-                </Page>
+                <LogoPage/>
                 <Page className="rightPage">
 
                     <h1>Welcome brave adventurer!</h1>

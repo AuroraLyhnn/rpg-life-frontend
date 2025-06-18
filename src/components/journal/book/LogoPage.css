@@ -1,0 +1,13 @@
+.logoPage {
+    width: 34rem;
+    height: 41rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 20rem;
+
+}

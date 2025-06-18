@@ -1,0 +1,39 @@
+.scroll {
+    width: 37rem;
+    height: 54rem;
+    padding: 6rem 3.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-image: url(/src/assets/page/scroll.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    margin: 0.5rem 0;
+    color: #9C5A3C;
+
+}
+
+.welcome-story {
+    text-align: start;
+    line-height: 1.5rem;
+    color: #663C29;
+
+}
+
+.welcome-heart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.heart {
+    width: 2rem;
+    height: 2rem;
+
+}
