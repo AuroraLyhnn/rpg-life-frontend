@@ -2,7 +2,7 @@ import './Page.css'
 
 function Page({children, className = ""}) {
     return (
-        <div className={`Container ${className}`}>
+        <div className={`container ${className}`}>
             {children}
         </div>
     );

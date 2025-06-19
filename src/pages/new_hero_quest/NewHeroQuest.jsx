@@ -5,10 +5,10 @@ import Book from "../../components/journal/book/Book.jsx";
 function NewHeroQuest() {
     return (
         <Book>
-            <Page className="leftPage">
+            <Page className="left-page">
                 <h1>New Hero quest page!</h1>
             </Page>
-            <Page className="rightPage">
+            <Page className="right-page">
 
             </Page>
 

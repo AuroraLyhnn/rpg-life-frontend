@@ -8,6 +8,7 @@ import Line from "../../assets/page/dark-line-s.png"
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 import LogoPage from "../../components/journal/book/LogoPage.jsx";
+import InputField from "../../components/inputField/InputField.jsx";
 
 function Login() {
 
@@ -18,18 +19,31 @@ function Login() {
         e.preventDefault();
     }
 
+    const [formState, setFormState] = useState({
+        rememberMe: false
+    });
+
+    function handleChange(e) {
+        const changedFieldName = e.taget.name;
+
+        setFormState({
+            ...formState,
+            [changedFieldName]: e.target.value,
+        })
+    }
+
         return (
             <Book>
                 <LogoPage/>
-                <Page className="rightPage">
+                <Page className="right-page">
 
                     <h1>Welcome brave adventurer!</h1>
 
-                    <form className="loginForm" onSubmit={handleSubmit}>
-                        <div className="emailArea">
-                            <div className="emailField">
+                    <form className="login-form" onSubmit={handleSubmit}>
+                        <div className="email-area">
+                            <div className="email-field">
                                 <img className="mail" src={Mail} alt="mail icon"/>
-                                <input className="emailInput" placeholder="Emailaddress:"
+                                <input className="email-input" placeholder="Emailaddress:"
                                        name="email"
                                        id="email-field"
                                        type="text"
@@ -40,10 +54,10 @@ function Login() {
                         </div>
 
 
-                        <div className="passwordArea">
-                            <div className="passwordField">
+                        <div className="password-area">
+                            <div className="password-field">
                                 <img className="lock" src={Lock} alt="lock icon"/>
-                                <input className="passwordInput" placeholder="Password"
+                                <input className="password-input" placeholder="Password"
                                        name="password"
                                        id="password-field"
                                        type="password"
@@ -51,7 +65,14 @@ function Login() {
                                        onChange={(e) => setPasswordValue(e.target.value)}/>
                             </div>
                             <img src={Line} alt="line"/>
-                            <NavLink className="links" to="/forgot-password">Forgot password?</NavLink>
+                            <div className="password-and-remember-me">
+
+                                <div className="remember me">
+                                    <InputField name="rember-me-checkbox" label="Remember me?" inputType="checkbox" value={formState.rememberMe} onChange={{handleChange}} />
+                                    <NavLink className="links" to="/forgot-password">Forgot password?</NavLink>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div className="login-or-register">

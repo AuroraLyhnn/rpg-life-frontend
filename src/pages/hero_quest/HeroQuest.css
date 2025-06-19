@@ -1,0 +1,20 @@
+.leftpage {
+
+}
+
+.new-hero-quest-form {
+
+}
+
+.hero-quest-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+
+}
+
+.quest-description {
+    background-color: transparent;
+    align-self: stretch;
+}
