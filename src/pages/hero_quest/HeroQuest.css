@@ -1,20 +1,14 @@
-.leftpage {
-
+.hero-quest-image {
+    background-image: url("../../assets/page/dragon1.png");
+    background-size: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+    .hero-quest-complete-button {
+        margin-top: 35rem;
+    }
 
-.new-hero-quest-form {
-
-}
-
-.hero-quest-description {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 0.5rem;
-
-}
-
-.quest-description {
-    background-color: transparent;
-    align-self: stretch;
+.under-line {
+    width: 30rem;
+    margin-bottom: 1rem;
 }
