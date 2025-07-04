@@ -1,0 +1,46 @@
+ .new-hero-quest-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+}
+
+.new-hero-quest-form .input-field{
+    background-color: transparent;
+    margin: 1rem 0;
+}
+
+.hero-quest-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.quest-description {
+    background-color: transparent;
+    align-self: stretch;
+}
+
+.under-line {
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.input-motivation-area {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 3.8 rem;
+    gap: 1rem;
+}
+
+.motivation-field {
+    background-color: transparent;
+    border: #663C29 1px solid;
+    color: #663C29;
+    padding: 0.5rem;
+    resize: none;
+    width: 29rem;
+    height: 10rem;
+}
