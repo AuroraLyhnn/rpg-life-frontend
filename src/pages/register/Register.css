@@ -1,8 +1,3 @@
-.title-line {
-    width: 25rem;
-    margin-bottom: 2rem
-}
-
 .registration-form {
     margin: 2rem 2rem;
     display: flex;
@@ -12,6 +7,16 @@
     width: 25rem;
 }
 
+.welcome-title {
+    border-bottom: #663C29 solid;
+    border-width: 1px;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.register-form-title {
+    font-size: 1.3rem;
+}
 .hero-name-explenation {
     display: flex;
     flex-direction: row;

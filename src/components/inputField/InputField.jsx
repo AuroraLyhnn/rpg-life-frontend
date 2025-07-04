@@ -1,21 +1,20 @@
 import React from 'react';
 import './InputField.css'
-import Line from "../../assets/page/dark-line-s.png";
 
-function InputField({ name, inputType, label, value, changeHandler}) {
+function InputField({ image, name, inputType, label, value,  ...props}) {
+
     return (
-        <>
-            <label htmlFor={`${name}-field`}>{label}</label>
+        <div className="input-area-component">
+                <img src={image}/>
+                <label htmlFor={`${name}-field`}>{label}</label>
                 <input className="input-field"
-                    name={`${name}-field`}
+                    name={`${name}`}
                     id={`${name}-field`}
                     type={inputType}
                     value={value}
-                    onChange={changeHandler}
+                       {...props}
                 />
-
-        </>
+        </div>
     );
 }
-
 export default InputField;
