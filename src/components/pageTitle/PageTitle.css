@@ -1,0 +1,14 @@
+.title-area-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem 0.2rem;
+    margin-bottom: 0.5rem;
+    align-items: start;
+    border-bottom: #D7B594 solid 1px;
+}
+
+.page-title {
+    color: #663C29;
+    margin: 0;
+}
