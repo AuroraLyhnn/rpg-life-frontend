@@ -8,7 +8,8 @@ import Login from "./pages/login/Login.jsx";
 import Register from "./pages/register/Register.jsx";
 import ForgotPassword from "./pages/forgot_password/ForgotPassword.jsx";
 import NotFound from "./pages/not_found/NotFound.jsx";
-import Welcome from "./components/journal/welcome/Welcome.jsx";
+import Welcome from "./components/journal/popups/welcome/Welcome.jsx";
+import NewHeroQuest from "./pages/new_hero_quest/NewHeroQuest.jsx";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<ToDo/>}/>
                 <Route path="hero_quest" element={<HeroQuest/>}/>
+                <Route path="new_hero_quest" element={<NewHeroQuest/>}/>
                 <Route path="guild_card" element={<GuildCard/>}/>
                 <Route path="login" element={<Login/>}/>
                 <Route path="register" element={<Register/>}/>

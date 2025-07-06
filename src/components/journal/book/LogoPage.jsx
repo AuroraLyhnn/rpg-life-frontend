@@ -3,7 +3,7 @@ import AppLogo from "../../../assets/page/application-logo.png";
 
 function LogoPage() {
     return (
-        <div className="logoPage">
+        <div className="logo-page">
             <img className="logo" src={AppLogo} alt="Application logo"/>
         </div>
     );

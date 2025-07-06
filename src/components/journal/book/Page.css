@@ -1,5 +1,8 @@
-.Container {
+.container {
     width: 34rem;
     height: 41rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
 }

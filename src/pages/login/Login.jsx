@@ -8,50 +8,62 @@ import Line from "../../assets/page/dark-line-s.png"
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 import LogoPage from "../../components/journal/book/LogoPage.jsx";
+import InputField from "../../components/inputField/InputField.jsx";
 
 function Login() {
-
-    const [emailValue, setEmailValue] = useState('');
-    const [passwordValue, setPasswordValue] = useState('');
-
     function handleSubmit(e) {
         e.preventDefault();
+    }
+
+    const [formState, setFormState] = useState({
+        rememberMe: false,
+        loginEmail: '',
+        loginPassword: ''
+    });
+
+    function handleChange(e) {
+        const changedFieldName = e.target.name;
+        setFormState({
+            ...formState,
+            [changedFieldName]: e.target.value,
+        })
     }
 
         return (
             <Book>
                 <LogoPage/>
-                <Page className="rightPage">
+                <Page className="right-page">
 
                     <h1>Welcome brave adventurer!</h1>
 
-                    <form className="loginForm" onSubmit={handleSubmit}>
-                        <div className="emailArea">
-                            <div className="emailField">
-                                <img className="mail" src={Mail} alt="mail icon"/>
-                                <input className="emailInput" placeholder="Emailaddress:"
-                                       name="email"
-                                       id="email-field"
+                    <form className="login-form" onSubmit={handleSubmit}>
+                        <div className="email-area">
+                                <InputField image={Mail}
+                                    placeholder="Emailaddress"
+                                       name="loginEmail"
+                                       id="login-email"
                                        type="text"
-                                       value={emailValue}
-                                       onChange={(e) => setEmailValue(e.target.value)}/>
-                            </div>
-                            <img src={Line} alt="line"/>
+                                       value={formState.loginEmail}
+                                       onChange={handleChange}/>
                         </div>
 
 
-                        <div className="passwordArea">
-                            <div className="passwordField">
-                                <img className="lock" src={Lock} alt="lock icon"/>
-                                <input className="passwordInput" placeholder="Password"
-                                       name="password"
-                                       id="password-field"
+                        <div className="password-area">
+                                <InputField image={Lock}
+                                    placeholder="Password"
+                                       name="loginPassword"
+                                       id="login-password"
                                        type="password"
-                                       value={passwordValue}
-                                       onChange={(e) => setPasswordValue(e.target.value)}/>
+                                       value={formState.loginPassword}
+                                       onChange={handleChange}/>
+
+                            <div className="password-and-remember-me">
+                                <div className="remember me">
+                                    <input name="rember-me-checkbox" label="Remember me?" type="checkbox" value={formState.rememberMe} onChange={handleChange} />
+                                    <NavLink className="links" to="/forgot-password">Forgot password?</NavLink>
+                                </div>
                             </div>
-                            <img src={Line} alt="line"/>
-                            <NavLink className="links" to="/forgot-password">Forgot password?</NavLink>
+
                         </div>
 
                         <div className="login-or-register">

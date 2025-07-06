@@ -20,16 +20,26 @@
   color: #663C29;
 }
 
+h1 {
+  color: #663C29;
+}
+
 /*-♥-Global-Styling-♥-*/
 
 html {
   background-color: #242424;
   background-image: url("./assets/page/background.png");
+
+  cursor: url("./assets/page/sword-cursor.png"), auto;
 }
 
 ul, ol, a {
   list-style: none;
   text-decoration: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 a {

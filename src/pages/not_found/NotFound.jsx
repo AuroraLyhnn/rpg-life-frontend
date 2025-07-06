@@ -6,11 +6,11 @@ import {NavLink} from "react-router-dom";
 function PageNotFound() {
     return (
         <Book>
-            <Page className="leftPage">
+            <Page className="left-page">
                 <h1>This page was not found...</h1>
             </Page>
-            <Page className="rightPage">
-                <NavLink className="Back to home" to="/">Click here to go back to your journal</NavLink>
+            <Page className="right-page">
+                <NavLink className="back-to-home" to="/">Click here to go back to your journal</NavLink>
             </Page>
 
         </Book>

@@ -1,60 +1,53 @@
-.titleLine {
-    width: 25rem;
-}
-
-.registrationForm {
+.registration-form {
     margin: 2rem 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.emailAddressInputField,
-.newPasswordInputField,
-.repeatPasswordInputField,
-.heroNameInputField {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: start;
+    justify-content: center;
+    width: 25rem;
 }
 
-.emailAddressInput,
-.newPasswordInput,
-.repeatPasswordInput,
-.heroNameInput{
-    align-self: stretch;
+.welcome-title {
+    border-bottom: #663C29 solid;
+    border-width: 1px;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.heroNameExplenation {
+.register-form-title {
+    font-size: 1.3rem;
+}
+.hero-name-explenation {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 0.3rem;
 }
+/*Dont know how to do this atm since i cant group the label with the explenation*/
 
-.welcomeScroll {
+.welcome-scroll {
     position: fixed;
-    top: 100vh; /* completely off screen (bottom) */
-    margin-left: 41rem;
-    width: 100%;
-    height: 100%;
+    top: 100vh;
+    left: 65%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
     transition: top 0.7s ease-in-out;
+    z-index: 1000;
 }
 
-/* Visible on screen */
-.welcomeScroll.visible {
-    top: 2rem;
+.welcome-scroll.visible {
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-
 
 .flame {
     width: 1.5rem;
     height: 1.8rem;
 }
 
-.registerButton {
+.register-button {
     margin-top: 2rem;
+    align-self: center;
 }

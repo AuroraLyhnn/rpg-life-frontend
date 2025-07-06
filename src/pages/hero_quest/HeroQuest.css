@@ -1,0 +1,36 @@
+.hero-quest-image {
+    background-image: url("../../assets/page/dragon1.png");
+    background-size: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .hero-quest-complete-button {
+        margin-top: 35rem;
+    }
+
+.under-line {
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.inspiration-button {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.moon {
+    width: 3.5rem;
+}
+
+.get-inspired-button {
+    background: transparent;
+    border: none;
+    border-bottom: #D7B594 1px solid;
+    border-radius: 0;
+    color: #663C29;
+    width: fit-content;
+    padding: 1.2rem 0.5rem;
+}

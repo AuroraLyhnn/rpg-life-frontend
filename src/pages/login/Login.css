@@ -1,4 +1,4 @@
-.leftPage {
+.left-page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,14 +9,13 @@
 
 }
 
-.rightPage {
+.right-page {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.loginForm {
+.login-form {
     height: 20rem;
     width: 27rem;
     margin-top: 1rem;
@@ -27,25 +26,17 @@
     justify-content: space-between;
 }
 
-.emailArea,
-.passwordArea {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.emailField,
-.passwordField {
+.login-form .input-area-component,
+.login-form .input-area-component {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    border-bottom: #663C29;
-    border-width: 0.3rem;
-    gap: 0.5rem;
+    align-items: start;
+    justify-content: center;
+    gap: 0.3rem;
 }
 
-.emailInput,
-.passwordInput {
+.email-input,
+.password-input {
     border: none;
     background-color: transparent;
     width: 22rem;

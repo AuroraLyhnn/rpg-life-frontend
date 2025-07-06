@@ -1,0 +1,45 @@
+/*-♥-Component-♥-*/
+
+.input-area-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: start;
+    padding-bottom: 0.5rem;
+    border-bottom: #D7B594 solid 1px;
+}
+
+/*-♥-Label-♥-*/
+
+label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.image-and-label {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+/*-♥-Input-♥-*/
+
+.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: transparent;
+    padding-left: 1rem;
+}
+
+input:focus {
+    border: #663C29 solid;
+}
+
+input::placeholder {
+    color: #663C29;
+}
+
+
