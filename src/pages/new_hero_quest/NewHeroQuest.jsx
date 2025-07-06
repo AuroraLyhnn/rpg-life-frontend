@@ -4,6 +4,7 @@ import Book from "../../components/journal/book/Book.jsx";
 import React, {useState} from "react";
 import InputField from "../../components/inputField/InputField.jsx";
 import PageTitle from "../../components/pageTitle/PageTitle.jsx";
+import quests from "../../constants/data.json"
 
 function NewHeroQuest() {
 

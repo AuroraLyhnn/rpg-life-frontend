@@ -1,12 +1,10 @@
 import './HeroQuest.css';
-// import React, { useState} from "react";
 import Book from "../../components/journal/book/Book.jsx";
 import Page from "../../components/journal/book/Page.jsx";
-import Dragon from "../../assets/page/dragon1.png"
-import Line from "../../assets/page/dark-line-s.png"
 import InputField from "../../components/inputField/InputField.jsx";
 import React, {useState} from "react";
 import PageTitle from "../../components/pageTitle/PageTitle.jsx";
+import Moon from "../../assets/page/moon.png"
 function HeroQuest() {
     //
     // const [formState, setFormState] = useState({
@@ -69,6 +67,10 @@ function HeroQuest() {
                                     value={formState.heroQuestDescription}
                                     onChange={handleChange}/>
                         </form>
+                    <div className="inspiration-button">
+                        <img className="moon" src={Moon}/>
+                        <button className="get-inspired-button">Get inspired</button>
+                    </div>
                 </Page>
                 <Page className="hero-quest-image">
                     <button className="hero-quest-complete-button">Finish Hero Quest!</button>

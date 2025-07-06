@@ -38,6 +38,10 @@ ul, ol, a {
   text-decoration: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   color: #558b2f;
   text-decoration: underline #558b2f;
