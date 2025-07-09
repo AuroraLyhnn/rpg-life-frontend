@@ -28,9 +28,9 @@ h1 {
 
 html {
   background-color: #242424;
-  background-image: url("./assets/page/background.png");
+  background-image: url("assets/page/Backgrounds/background.png");
 
-  cursor: url("./assets/page/sword-cursor.png"), auto;
+  cursor: url("assets/page/decoration/sword-cursor.png"), auto;
 }
 
 ul, ol, a {

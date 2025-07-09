@@ -1,5 +1,5 @@
 import './LogoPage.css'
-import AppLogo from "../../../assets/page/application-logo.png";
+import AppLogo from "../../../assets/page/decoration/application-logo.png";
 
 function LogoPage() {
     return (

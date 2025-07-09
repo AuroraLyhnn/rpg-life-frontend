@@ -51,7 +51,7 @@ Line {
 .links
 {
     color: #558b2f;
-    margin-top: 0.5rem;
+
 }
 .links:hover {
     color: #f06292;
@@ -68,6 +68,7 @@ button {
     border-radius: 10px;
     font: inherit;
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .login-or-register {
@@ -75,4 +76,19 @@ button {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+}
+
+.password-and-remember-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.remember-me-checkbox {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: normal;
+    font-size: inherit;
 }

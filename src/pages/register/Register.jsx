@@ -4,7 +4,7 @@ import Page from "../../components/journal/book/Page.jsx";
 import Book from "../../components/journal/book/Book.jsx";
 import Welcome from "../../components/journal/popups/welcome/Welcome.jsx";
 import LogoPage from "../../components/journal/book/LogoPage.jsx";
-import Flame from "../../assets/page/flame.png"
+import Flame from "../../assets/page/decoration/flame.png"
 import InputField from "../../components/inputField/InputField.jsx";
 function Register() {
 
@@ -19,7 +19,7 @@ function Register() {
         password: '',
         repeatPassword: '',
         heroName: '',
-        showWelcomeScroll: false
+        // showWelcomeScroll: false
     });
 
     function handleChange(e) {

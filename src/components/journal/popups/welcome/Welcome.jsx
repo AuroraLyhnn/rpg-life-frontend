@@ -1,6 +1,6 @@
 import './Welcome.css';
 import Book from "../../book/Book.jsx";
-import Heart from "../../../../assets/page/logo.png"
+import Heart from "../../../../assets/page/decoration/logo.png"
 import {NavLink} from "react-router-dom";
 
 function Welcome({className}) {

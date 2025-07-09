@@ -4,7 +4,7 @@ import Page from "../../components/journal/book/Page.jsx";
 import InputField from "../../components/inputField/InputField.jsx";
 import React, {useState} from "react";
 import PageTitle from "../../components/pageTitle/PageTitle.jsx";
-import Moon from "../../assets/page/moon.png"
+import Moon from "../../assets/page/decoration/moon.png"
 function HeroQuest() {
     //
     // const [formState, setFormState] = useState({
