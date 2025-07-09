@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "type": "body",
+    "name": "light",
+    "available": "yes",
+    "parts": {
+      "main": "src/assets/character/body/light/body.png",
+      "arms": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/body/light/arms_staff_sword.png"
+        },
+        {
+          "job": "arcanist",
+          "image": "src/assets/character/body/light/arms_magic.png"
+        },
+        {
+          "job": "reaper",
+          "image": "src/assets/character/body/light/arms_scythe.png"
+        }
+      ],
+      "ears": "src/assets/character/body/light/ears.png"
+    }
+  },
+  {
+    "id": 2,
+    "type": "body",
+    "name": "tan",
+    "available":  "yes",
+    "parts": {
+      "main": "src/assets/character/body/tan/body.png",
+      "arms": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/body/tan/arms_staff_sword.png"
+        },
+        {
+          "job": "arcanist",
+          "image": "src/assets/character/body/tan/arms_magic.png"
+        },
+        {
+          "job": "reaper",
+          "image": "src/assets/character/body/tan/arms_scythe.png"
+        }
+      ],
+      "ears": "src/assets/character/body/tan/ears.png"
+    }
+  },
+  {
+    "id": 3,
+    "type": "body",
+    "name": "dark",
+    "available":  "yes",
+    "parts": {
+      "main": "src/assets/character/body/dark/body.png",
+      "arms": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/body/dark/arms_staff_sword.png"
+        },
+        {
+          "job": "arcanist",
+          "image": "src/assets/character/body/dark/arms_magic.png"
+        },
+        {
+          "job": "reaper",
+          "image": "src/assets/character/body/dark/arms_scythe.png"
+        }
+      ],
+      "ears": "src/assets/character/body/dark/ears.png"
+    }
+  },
+  {
+    "id": 4,
+    "type": "eyes",
+    "name": "blue",
+    "available":  "yes",
+    "image": "src/assets/character/eyes/blue.png"
+  },
+  {
+    "id": 5,
+    "type": "eyes",
+    "name": "green",
+    "available":  "yes",
+    "image": "src/assets/character/eyes/green.png"
+  },
+  {
+    "id": 6,
+    "type": "eyes",
+    "name": "purple",
+    "available":  "yes",
+    "image": "src/assets/character/eyes/purple.png"
+  },
+  {
+    "id": 7,
+    "type": "eyes",
+    "name": "red",
+    "available":  "yes",
+    "image": "src/assets/character/eyes/red.png"
+  },
+  {
+    "id": 8,
+    "type": "eyes",
+    "name": "yellow",
+    "available":  "yes",
+    "image": "src/assets/character/eyes/yellow.png"
+  },
+  {
+    "id": 9,
+    "type": "hair",
+    "name": "bob_orange",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/bob/orange_front.png",
+      "back": "src/assets/character/hair/bob/orange_back.png"
+    }
+  },
+  {
+    "id": 10,
+    "type": "hair",
+    "name": "bob_purple",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/bob/purple_front.png",
+      "back": "src/assets/character/hair/bob/purple_back.png"
+    }
+  },
+  {
+    "id": 11,
+    "type": "hair",
+    "name": "bob_red",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/bob/red_front.png",
+      "back": "src/assets/character/hair/bob/red_back.png"
+    }
+  },
+  {
+    "id": 12,
+    "type": "hair",
+    "name": "buns_purple",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/buns/purple_front.png",
+      "back": "src/assets/character/hair/buns/purple_back.png"
+    }
+  },
+  {
+    "id": 13,
+    "type": "hair",
+    "name": "curly_red",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/curly/red_front.png",
+      "back": "src/assets/character/hair/curly/red_back.png"
+    }
+  },
+  {
+    "id": 14,
+    "type": "hair",
+    "name": "long_black",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/long/black_front.png",
+      "back": "src/assets/character/hair/long/black_back.png"
+    }
+  },
+  {
+    "id": 15,
+    "type": "hair",
+    "name": "long_blonde",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/long/blonde_front.png",
+      "back": "src/assets/character/hair/long/blonde_back.png"
+    }
+  },
+  {
+    "id": 16,
+    "type": "hair",
+    "name": "long_green",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/long/green_front.png",
+      "back": "src/assets/character/hair/long/green_back.png"
+    }
+  },
+  {
+    "id": 17,
+    "type": "hair",
+    "name": "long_grey",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/long/grey_front.png",
+      "back": "src/assets/character/hair/long/grey_back.png"
+    }
+  },
+  {
+    "id": 18,
+    "type": "hair",
+    "name": "ponytails_blonde",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/ponytails/blonde_front.png",
+      "back": "src/assets/character/hair/ponytails/blonde_back.png"
+    }
+  },
+  {
+    "id": 19,
+    "type": "hair",
+    "name": "wavy_white",
+    "available":  "yes",
+    "part": {
+      "front": "src/assets/character/hair/wavy/white_front.png",
+      "back": "src/assets/character/hair/wavy/white_back.png"
+    }
+  },
+  {
+    "id": 20,
+    "type": "outfit",
+    "name": "corset_dress_black",
+    "available":  "yes",
+    "parts": {
+      "back": "src/assets/character/outfit/corset_dress/back.png",
+      "front": "src/assets/character/outfit/corset_dress/black_front.png",
+      "sleeves": "nvt"
+    }
+  },
+  {
+    "id": 21,
+    "type": "outfit",
+    "name": "layered_dress_green",
+    "available":  "yes",
+    "parts": {
+      "back": "src/assets/character/outfit/layered_dress/back.png",
+      "front": "src/assets/character/outfit/layered_dress/green_front.png",
+      "sleeves": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/outfit/layered_dress/green_sleeves_staff.png"
+        },
+        {
+          "job": "arcanist",
+          "image": "src/assets/character/outfit/layered_dress/green_sleeves_magic.png"
+        },
+        {
+          "job": "reaper",
+          "image": "src/assets/character/outfit/layered_dress/green_sleeves_scythe.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "type": "outfit",
+    "name": "long_sleeve_dress_white",
+    "available":  "yes",
+    "parts": {
+      "back": "src/assets/character/outfit/long_sleeve_dress/white_back.png",
+      "front": "src/assets/character/outfit/long_sleeve_dress/white_front.png",
+      "sleeves": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_staff.png"
+        },
+        {
+          "job": "arcanist",
+          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_magic.png"
+        },
+        {
+          "job": "reaper",
+          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_scythe.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "type": "outfit",
+    "name": "pixie_dress_green",
+    "available":  "yes",
+    "parts": {
+      "back": "nvt",
+      "front": "src/assets/character/outfit/pixie_dress/green_front.png",
+      "sleeves": [
+        {
+          "job": "mage, rogue",
+          "image": "src/assets/character/outfit/pixie_dress/green_sleeves_staff.png"
+        },
+        {
+          "job": "arcanist, reaper",
+          "image": "src/assets/character/outfit/pixie_dress/green_sleeves_scythe.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "type": "outfit",
+    "name": "ruffled_dress_black",
+    "available":  "yes",
+    "parts": {
+      "back": "nvt",
+      "front": "src/assets/character/outfit/ruffled_dress/black_front.png",
+      "sleeves": "src/assets/character/outfit/ruffled_dress/black_sleeves.png"
+    }
+  },
+  {
+    "id": 25,
+    "type": "outfit",
+    "name": "wizard_dress_blue",
+    "available":  "yes",
+    "parts": {
+      "back": "src/assets/character/outfit/wizard_dress/back.png",
+      "front": "src/assets/character/outfit/wizard_dress/blue_front.png",
+      "sleeves": "nvt"
+    }
+  },
+  {
+    "id": 26,
+    "type": "shoes",
+    "name": "ballerinas_black",
+    "available":  "yes",
+    "image": "src/assets/character/shoes/ballerinas_black.png"
+  },
+  {
+    "id": 27,
+    "type": "shoes",
+    "name": "low_boots_brown",
+    "available":  "yes",
+    "image": "src/assets/character/shoes/low_boots_brown.png"
+  },
+  {
+    "id": 28,
+    "type": "shoes",
+    "name": "sandals_green",
+    "available":  "yes",
+    "image": "src/assets/character/shoes/sandals_green.png"
+  },
+  {
+    "id": 29,
+    "type": "shoes",
+    "name": "tall_boots_grey",
+    "available":  "yes",
+    "image": "src/assets/character/shoes/tall_boots_grey.png"
+  },
+  {
+    "id": 30,
+    "type": "wings",
+    "name": "bat",
+    "available":  "yes",
+    "image": "src/assets/character/wings/bat.png"
+  },
+  {
+    "id": 31,
+    "type": "wings",
+    "name": "butterfly",
+    "available":  "yes",
+    "image": "src/assets/character/wings/butterfly.png"
+  },
+  {
+    "id": 32,
+    "type": "wings",
+    "name": "fire",
+    "available":  "yes",
+    "image": "src/assets/character/wings/fire.png"
+  },
+  {
+    "id": 33,
+    "type": "wings",
+    "name": "ice",
+    "available":  "yes",
+    "image": "src/assets/character/wings/ice.png"
+  },
+  {
+    "id": 34,
+    "type": "head_accessory",
+    "name": "cat_ears_white",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/ears/cat_white.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 35,
+    "type": "head_accessory",
+    "name": "wizard_hat_blue",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/hats/wizard_blue.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 36,
+    "type": "head_accessory",
+    "name": "horns_connected",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/horns/connected.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 37,
+    "type": "head_accessory",
+    "name": "horns_curly",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/horns/curly.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 38,
+    "type": "head_accessory",
+    "name": "chain_silver",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/jewelry/chain_silver.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 39,
+    "type": "head_accessory",
+    "name": "ribbons_red",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/jewelry/ribbons_red.png",
+      "back": "src/assets/character/head_accessory/jewelry/ribbons_red_back.png"
+    }
+  },
+  {
+    "id": 40,
+    "type": "head_accessory",
+    "name": "ribbon_red",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/jewelry/ribbon_red.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 41,
+    "type": "head_accessory",
+    "name": "spikes_black",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/jewelry/spikes_black.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 42,
+    "type": "head_accessory",
+    "name": "tiara_gold",
+    "available":  "yes",
+    "parts": {
+      "front": "src/assets/character/head_accessory/jewelry/tiara_gold.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 43,
+    "type": "weapon",
+    "name": "staff_moonfairy",
+    "available":  "yes",
+    "job": "mage",
+    "parts": {
+      "front": "src/assets/character/weapon/staff/moonfairy.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 44,
+    "type": "weapon",
+    "name": "sword_pink",
+    "available":  "yes",
+    "job": "rogue",
+    "parts": {
+      "front": "src/assets/character/weapon/short_sword/pink.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 45,
+    "type": "weapon",
+    "name": "sword_gold",
+    "available":  "yes",
+    "job": "rogue",
+    "parts": {
+      "front": "src/assets/character/weapon/short_sword/gold.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 46,
+    "type": "weapon",
+    "name": "scythe_pink",
+    "available":  "yes",
+    "job": "reaper",
+    "parts": {
+      "front": "src/assets/character/weapon/scythe/pink_blade.png",
+      "back": "src/assets/character/weapon/scythe/pink_handle.png"
+    }
+  },
+  {
+    "id": 47,
+    "type": "weapon",
+    "name": "water",
+    "available":  "yes",
+    "job": "arcanist",
+    "parts": {
+      "front": "src/assets/character/weapon/magic/water.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 48,
+    "type": "weapon",
+    "name": "lightning",
+    "available":  "yes",
+    "job": "arcanist",
+    "parts": {
+      "front": "src/assets/character/weapon/magic/lightning.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 49,
+    "type": "weapon",
+    "name": "fire",
+    "available":  "yes",
+    "job": "arcanist",
+    "parts": {
+      "front": "src/assets/character/weapon/magic/fire.png",
+      "back": "nvt"
+    }
+  },
+  {
+    "id": 50,
+    "type": "weapon",
+    "name": "arcane",
+    "available":  "yes",
+    "job": "arcanist",
+    "parts": {
+      "front": "src/assets/character/weapon/magic/arcane.png",
+      "back": "nvt"
+    }
+  }
+]
