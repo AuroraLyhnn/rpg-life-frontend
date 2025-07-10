@@ -6,21 +6,13 @@
     "available": "yes",
     "parts": {
       "main": "src/assets/character/body/light/body.png",
-      "arms": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/body/light/arms_staff_sword.png"
-        },
-        {
-          "job": "arcanist",
-          "image": "src/assets/character/body/light/arms_magic.png"
-        },
-        {
-          "job": "reaper",
-          "image": "src/assets/character/body/light/arms_scythe.png"
-        }
-      ],
-      "ears": "src/assets/character/body/light/ears.png"
+      "ears": "src/assets/character/body/light/ears.png",
+      "arms": {
+        "mage": "src/assets/character/body/light/arms_staff_sword.png",
+        "rogue": "src/assets/character/body/light/arms_staff_sword.png",
+        "arcanist": "src/assets/character/body/light/arms_magic.png",
+        "reaper": "src/assets/character/body/light/arms_scythe.png"
+      }
     }
   },
   {
@@ -30,21 +22,13 @@
     "available":  "yes",
     "parts": {
       "main": "src/assets/character/body/tan/body.png",
-      "arms": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/body/tan/arms_staff_sword.png"
-        },
-        {
-          "job": "arcanist",
-          "image": "src/assets/character/body/tan/arms_magic.png"
-        },
-        {
-          "job": "reaper",
-          "image": "src/assets/character/body/tan/arms_scythe.png"
+      "ears": "src/assets/character/body/tan/ears.png",
+      "arms": {
+        "mage": "src/assets/character/body/tan/arms_staff_sword.png",
+        "rogue": "src/assets/character/body/tan/arms_staff_sword.png",
+        "arcanist": "src/assets/character/body/tan/arms_magic.png",
+        "reaper": "src/assets/character/body/tan/arms_scythe.png"
         }
-      ],
-      "ears": "src/assets/character/body/tan/ears.png"
     }
   },
   {
@@ -54,21 +38,13 @@
     "available":  "yes",
     "parts": {
       "main": "src/assets/character/body/dark/body.png",
-      "arms": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/body/dark/arms_staff_sword.png"
-        },
-        {
-          "job": "arcanist",
-          "image": "src/assets/character/body/dark/arms_magic.png"
-        },
-        {
-          "job": "reaper",
-          "image": "src/assets/character/body/dark/arms_scythe.png"
+      "ears": "src/assets/character/body/dark/ears.png",
+      "arms": {
+          "mage": "src/assets/character/body/dark/arms_staff_sword.png",
+          "rogue": "src/assets/character/body/dark/arms_staff_sword.png",
+          "arcanist": "src/assets/character/body/dark/arms_magic.png",
+          "reaper": "src/assets/character/body/dark/arms_scythe.png"
         }
-      ],
-      "ears": "src/assets/character/body/dark/ears.png"
     }
   },
   {
@@ -111,7 +87,7 @@
     "type": "hair",
     "name": "bob_orange",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/bob/orange_front.png",
       "back": "src/assets/character/hair/bob/orange_back.png"
     }
@@ -121,7 +97,7 @@
     "type": "hair",
     "name": "bob_purple",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/bob/purple_front.png",
       "back": "src/assets/character/hair/bob/purple_back.png"
     }
@@ -131,7 +107,7 @@
     "type": "hair",
     "name": "bob_red",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/bob/red_front.png",
       "back": "src/assets/character/hair/bob/red_back.png"
     }
@@ -141,7 +117,7 @@
     "type": "hair",
     "name": "buns_purple",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/buns/purple_front.png",
       "back": "src/assets/character/hair/buns/purple_back.png"
     }
@@ -151,7 +127,7 @@
     "type": "hair",
     "name": "curly_red",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/curly/red_front.png",
       "back": "src/assets/character/hair/curly/red_back.png"
     }
@@ -161,7 +137,7 @@
     "type": "hair",
     "name": "long_black",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/long/black_front.png",
       "back": "src/assets/character/hair/long/black_back.png"
     }
@@ -171,7 +147,7 @@
     "type": "hair",
     "name": "long_blonde",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/long/blonde_front.png",
       "back": "src/assets/character/hair/long/blonde_back.png"
     }
@@ -181,7 +157,7 @@
     "type": "hair",
     "name": "long_green",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/long/green_front.png",
       "back": "src/assets/character/hair/long/green_back.png"
     }
@@ -191,7 +167,7 @@
     "type": "hair",
     "name": "long_grey",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/long/grey_front.png",
       "back": "src/assets/character/hair/long/grey_back.png"
     }
@@ -201,7 +177,7 @@
     "type": "hair",
     "name": "ponytails_blonde",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/ponytails/blonde_front.png",
       "back": "src/assets/character/hair/ponytails/blonde_back.png"
     }
@@ -211,7 +187,7 @@
     "type": "hair",
     "name": "wavy_white",
     "available":  "yes",
-    "part": {
+    "parts": {
       "front": "src/assets/character/hair/wavy/white_front.png",
       "back": "src/assets/character/hair/wavy/white_back.png"
     }
@@ -235,20 +211,12 @@
     "parts": {
       "back": "src/assets/character/outfit/layered_dress/back.png",
       "front": "src/assets/character/outfit/layered_dress/green_front.png",
-      "sleeves": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/outfit/layered_dress/green_sleeves_staff.png"
-        },
-        {
-          "job": "arcanist",
-          "image": "src/assets/character/outfit/layered_dress/green_sleeves_magic.png"
-        },
-        {
-          "job": "reaper",
-          "image": "src/assets/character/outfit/layered_dress/green_sleeves_scythe.png"
+      "sleeves":{
+          "mage": "src/assets/character/outfit/layered_dress/green_sleeves_staff.png",
+          "rogue": "src/assets/character/outfit/layered_dress/green_sleeves_staff.png",
+          "arcanist": "src/assets/character/outfit/layered_dress/green_sleeves_magic.png",
+          "reaper": "src/assets/character/outfit/layered_dress/green_sleeves_scythe.png"
         }
-      ]
     }
   },
   {
@@ -259,20 +227,12 @@
     "parts": {
       "back": "src/assets/character/outfit/long_sleeve_dress/white_back.png",
       "front": "src/assets/character/outfit/long_sleeve_dress/white_front.png",
-      "sleeves": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_staff.png"
-        },
-        {
-          "job": "arcanist",
-          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_magic.png"
-        },
-        {
-          "job": "reaper",
-          "image": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_scythe.png"
+      "sleeves":{
+        "mage": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_staff.png",
+        "rogue": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_staff.png",
+        "arcanist": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_magic.png",
+        "reaper": "src/assets/character/outfit/long_sleeve_dress/white_sleeves_scythe.png"
         }
-      ]
     }
   },
   {
@@ -283,16 +243,12 @@
     "parts": {
       "back": "nvt",
       "front": "src/assets/character/outfit/pixie_dress/green_front.png",
-      "sleeves": [
-        {
-          "job": "mage, rogue",
-          "image": "src/assets/character/outfit/pixie_dress/green_sleeves_staff.png"
-        },
-        {
-          "job": "arcanist, reaper",
-          "image": "src/assets/character/outfit/pixie_dress/green_sleeves_scythe.png"
+      "sleeves":{
+        "mage": "src/assets/character/outfit/pixie_dress/green_sleeves_staff.png",
+        "rogue": "src/assets/character/outfit/pixie_dress/green_sleeves_staff.png",
+        "arcanist": "src/assets/character/outfit/pixie_dress/green_sleeves_scythe.png",
+        "reaper": "src/assets/character/outfit/pixie_dress/green_sleeves_scythe.png"
         }
-      ]
     }
   },
   {

@@ -15,52 +15,64 @@
     left: 1rem;
 }
 
-.body {
-    z-index: 5;
-}
-
-.arms {
-    z-index: 9
-}
-
-.ears {
+.main {
     z-index: 6;
 }
 
-.eyes {
-    z-index: 7;
-}
-
-.back-hair {
-    z-index: 3;
-}
-
-.front-hair {
-    z-index: 12;
-}
-
-.back-dress {
-    z-index: 4;
-}
-
-.front-dress {
-    z-index: 8;
-}
-
-.sleeves {
-    z-index: 10;
-}
-
-.weapon {
+.arms {
     z-index: 11;
 }
 
-.shoes {
+.ears {
+    z-index: 7;
+}
+
+.eyes {
+    z-index: 8;
+}
+
+.back-hair {
+    z-index: 4;
+}
+
+.front-hair {
+    z-index: 14;
+}
+
+.back-dress {
+    z-index: 5;
+}
+
+.front-dress {
+    z-index: 10;
+}
+
+.sleeves {
     z-index: 12;
+}
+
+.weapon {
+    z-index: 13;
+}
+
+.shoes {
+    z-index: 9;
 }
 
 .wings {
     z-index: 1;
+}
+
+.accessory {
+    z-index: 15;
+}
+
+.back-accessory {
+    z-index: 3;
+}
+
+.back-weapon {
+    z-index: 2;
 }
 
 .decor {

@@ -1,16 +1,16 @@
 import "./CharacterEditor.css"
-import Body from "../../../assets/character/body/light/body.png";
-import Arms from "../../../assets/character/body/light/arms_staff_sword.png";
-import Ears from "../../../assets/character/body/light/ears.png";
-import Eyes from "../../../assets/character/eyes/blue.png";
-import BackHair from "../../../assets/character/hair/long/grey_back.png";
-import FrontHair from "../../../assets/character/hair/long/grey_front.png";
-import BackDress from "../../../assets/character/outfit/layered_dress/back.png";
-import FrontDress from "../../../assets/character/outfit/layered_dress/green_front.png";
-import Sleeves from "../../../assets/character/outfit/layered_dress/green_sleeves_staff.png";
-import Weapon from "../../../assets/character/weapon/staff/moonfairy.png";
-import Shoes from "../../../assets/character/shoes/sandals_green.png";
-import Wings from "../../../assets/character/wings/ice.png";
+import Body from "../../../../assets/character/body/light/body.png";
+import Arms from "../../../../assets/character/body/light/arms_staff_sword.png";
+import Ears from "../../../../assets/character/body/light/ears.png";
+import Eyes from "../../../../assets/character/eyes/blue.png";
+import BackHair from "../../../../assets/character/hair/long/grey_back.png";
+import FrontHair from "../../../../assets/character/hair/long/grey_front.png";
+import BackDress from "../../../../assets/character/outfit/layered_dress/back.png";
+import FrontDress from "../../../../assets/character/outfit/layered_dress/green_front.png";
+import Sleeves from "../../../../assets/character/outfit/layered_dress/green_sleeves_staff.png";
+import Weapon from "../../../../assets/character/weapon/staff/moonfairy.png";
+import Shoes from "../../../../assets/character/shoes/sandals_green.png";
+import Wings from "../../../../assets/character/wings/ice.png";
 
 function CharacterEditor() {
     return (
