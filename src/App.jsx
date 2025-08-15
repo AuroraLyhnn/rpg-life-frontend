@@ -23,7 +23,6 @@ function App() {
                 <Route path="guild_card" element={<GuildCard/>}/>
                 <Route path="login" element={<Login/>}/>
                 <Route path="register" element={<Register/>}/>
-                <Route path="welcome" element={<Welcome/>}/>
                 <Route path="login_forgot_password" element={<ForgotPassword/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>

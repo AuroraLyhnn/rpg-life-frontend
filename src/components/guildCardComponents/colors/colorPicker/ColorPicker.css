@@ -1,0 +1,9 @@
+.color-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.color-picker.selected {
+    border: 3px solid white;
+}

@@ -10,7 +10,7 @@
     margin-top: 6rem;
     padding: 2rem 5rem 7rem 5rem;
     position: relative;
-    background-image: url("../../../assets/page/book_open.png");
+    background-image: url("../../../assets/page/Backgrounds/book_open.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -20,7 +20,7 @@
 
 @media (max-width: 720px) {
     .book {
-        background-image: url("../../../assets/page/background-phone.png");
+        background-image: url("../../../assets/page/Backgrounds/background-phone.png");
         width: 90%;
         height: 90%;
         background-size: cover;

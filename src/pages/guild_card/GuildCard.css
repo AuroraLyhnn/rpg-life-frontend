@@ -1,0 +1,151 @@
+.right-page-guild-card {
+    background-image: url("../../assets/page/decoration/guild-seal.png");
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.character-display {
+    margin-top: 0.5rem;
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    border: #663C29 2px solid;
+    display: flex;
+}
+
+
+.character img {
+    position: absolute;
+    height: 98%;
+    top: 1.3rem;
+    left: 1rem;
+}
+
+.body {
+    z-index: 5;
+}
+
+.arms {
+    z-index: 9
+}
+
+.ears {
+    z-index: 6;
+}
+
+.eyes {
+    z-index: 7;
+}
+
+.back-hair {
+    z-index: 3;
+}
+
+.front-hair {
+    z-index: 12;
+}
+
+.back-dress {
+    z-index: 4;
+}
+
+.front-dress {
+    z-index: 8;
+}
+
+.sleeves {
+    z-index: 10;
+}
+
+.weapon {
+    z-index: 11;
+}
+
+.shoes {
+    z-index: 12;
+}
+
+.wings {
+    z-index: 1;
+}
+
+.done-editing {
+    margin: auto;
+}
+
+.guild-card-data {
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 25rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0.4rem;
+    border-bottom: solid 1px #D7B594;
+    width: 100%;
+}
+
+.color-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.color-picker {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.color-picker.light {
+    background-color: #F2D3C3;
+}
+
+.color-picker.tan {
+    background-color: #ECB388;
+}
+
+.color-picker.dark {
+    background-color: #846355;
+}
+
+.color-picker.blue {
+    background-color: #0099DB;
+}
+
+.color-picker.green {
+    background-color: #6AC855;
+}
+
+.color-picker.purple {
+    background-color: #772762;
+}
+
+.color-picker.red {
+    background-color: #FF0044;
+}
+
+.color-picker.yellow {
+    background-color: #FEE761;
+}
+
+.label {
+    display: flex;
+    width: 6rem;
+    align-items: start;
+}
+
+.select-box {
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    color: #663C29;
+}
